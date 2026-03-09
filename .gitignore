@@ -4,6 +4,11 @@ node_modules/
 frontend/node_modules/
 backend/node_modules/
 
+# Lockfiles managed at root (npm workspaces)
+frontend/package-lock.json
+backend/package-lock.json
+
+
 # Build output
 frontend/dist/
 

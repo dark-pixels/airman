@@ -1,7 +1,9 @@
 {
   "name": "skynet-epr",
   "version": "1.0.0",
-  "description": "Skynet EPR — root package for Vercel serverless function dependencies",
+  "private": true,
+  "workspaces": ["frontend"],
+  "description": "Skynet EPR monorepo — backend deps + frontend workspace",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
